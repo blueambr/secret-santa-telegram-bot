@@ -7,7 +7,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const app = express();
 const csvFilePath = '';
 const port = process.env.PORT || 4000;
-const telegram = new Bot (process.env.TOKEN, { polling: true });
+const telegram = new TelegramBot (process.env.TOKEN, { polling: true });
 
 if (csvFilePath) {
   csv({
