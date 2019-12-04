@@ -23,6 +23,7 @@
 2. `git remote set-url origin https://github.com/USERNAME/REPOSITORY.git` to update the origin remote with your own repository / `git remote rm origin` to remove the origin remote
 3. `yarn` / `npm i`
 4. `process.env.TOKEN` inside `index.js` is your token. Do not store your token in public! Always store it as a **sensitive** information
+5. `node index.js`
    
 P.S. Don't forget to remove extra info like keywords, repository, etc. from `package.json`.
 
