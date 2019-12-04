@@ -13,9 +13,9 @@
 ## How to start:
 1. Sign Up / Log in to [Telegram](https://telegram.org/)
 2. Write to [@BotFather](https://t.me/botfather)
-    1. `/start`
-    2. `/newbot`
-    3. Follow the instructions
+  1. `/start`
+  2. `/newbot`
+  3. Follow the instructions
 3. Copy your token and store it **safely**, it can be used by anyone to control your bot
 
 ## How to launch:
