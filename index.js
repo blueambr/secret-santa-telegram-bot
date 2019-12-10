@@ -8,7 +8,7 @@ const app = express();
 const csvFilePath = './data.csv';
 const interrupt = {};
 const port = process.env.PORT || 4000;
-const telegram = new TelegramBot ('977703277:AAH7qQvMctPwxYNLYE59JVAlDi5u2fLOYLQ', { polling: true });
+const telegram = new TelegramBot (process.env.TOKEN, { polling: true });
 
 const validateEmail = address => {
   const regExp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
