@@ -1,4 +1,4 @@
-# Secret Santa Telegram Bot 0.8.0
+# Secret Santa Telegram Bot 1.0.0
 
 > "engines": { "node": "12.x" }
 
