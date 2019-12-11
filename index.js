@@ -35,24 +35,18 @@ Sorry, but I did not find your email in my database. Could you recheck it, pleas
 const getMainResponses = function (data, msg) {
   if (!validateEmail(msg.text)) {
     telegram.sendMessage(msg.chat.id, errorMessage);
-    throw interrupt;
   } else {
     try {
-      data.forEach( function (array) {
-        if (array.includes(msg.text)) {
-          array.forEach( function () {
-            if (array[0] === msg.text) {
-              telegram.sendMessage(msg.chat.id, mainMessage(array));
-              throw interrupt;
-            };
-          });
-        } else {
-          telegram.sendMessage(msg.chat.id, notFoundMessage);
+      data.map( function (array, index) {
+        if (array[0] === msg.text) {
+          telegram.sendMessage(msg.chat.id, mainMessage(array));
           throw interrupt;
-        };
+        } else if (index === data.length - 1) {
+          telegram.sendMessage(msg.chat.id, notFoundMessage);
+        }
       });
-    } catch (e) {
-      if (e !== interrupt) throw e;
+    } catch (err) {
+      if (err !== interrupt) throw err;
     };
   };
 };
