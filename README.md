@@ -7,6 +7,7 @@
 **[How to start](#how-to-start)**  
 **[How to launch](#how-to-launch)**  
 **[How to deploy](#how-to-deploy)**  
+**[What can I edit](#what-can-i-edit)**  
 **[Dependencies](#dependencies)**  
 **[License](#license)**
 
@@ -29,6 +30,9 @@ P.S. Don't forget to remove extra info like keywords, repository, etc. from `pac
 
 ## How to deploy
 I recommend to use [Heroku](https://devcenter.heroku.com/categories/nodejs-support). They have a great Documentation on Node.js and easy and accessible deploy approaches.
+
+## What can I edit
+You can edit whatever you want! You can add commands/conditions, remove commands/conditions, change the text of the messages, etc. If you need more information on how this bot works, check [node-telegram-api-bot](https://github.com/yagop/node-telegram-bot-api).
 
 ## Dependencies
 
