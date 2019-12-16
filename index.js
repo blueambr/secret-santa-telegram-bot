@@ -36,7 +36,7 @@ const errorMessage =
 I accept only valid email addresses!
 
 You can edit your previous message or type a new one!
-Type /start or /text for help.
+Type /start or /help for help.
 `;
 
 const notFoundMessage =
