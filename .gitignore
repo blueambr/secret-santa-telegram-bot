@@ -1,9 +1,6 @@
-# Yarn and npm
+# npm
 node_modules
-package-lock.json
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # OS or Editor folders
 *.sublime-grunt.cache
