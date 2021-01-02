@@ -38,7 +38,7 @@ I recommend to use [Heroku](https://devcenter.heroku.com/categories/nodejs-suppo
 
 ## What can I edit
 
-You can edit whatever you want! You can add commands/conditions, remove commands/conditions, change the text of the messages, etc. If you need more information on how this bot works, check [node-telegram-api-bot](https://github.com/yagop/node-telegram-bot-api).
+You can edit whatever you want! You can add commands/conditions, remove commands/conditions, change the text of the messages etc. If you need more information on how this bot works, check [node-telegram-api-bot](https://github.com/yagop/node-telegram-bot-api).
 
 ## Dependencies
 

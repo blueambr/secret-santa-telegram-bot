@@ -1,20 +1,23 @@
 {
   "name": "secret-santa-telegram-bot",
   "version": "1.0.0",
-  "description": "A bot for managing .csv files for Secret Santa events",
+  "description": "A bot for managing Secret Santa events",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VGMQT/secret-santa-telegram-bot.git"
+    "url": "https://github.com/vgerasimovich/secret-santa-telegram-bot.git"
   },
   "keywords": [
     "secret santa",
+    "secret",
+    "santa",
+    "telegram bot",
     "telegram",
     "bot",
     "csv"
   ],
-  "author": "Vlad Gerasimovich <vlad.gerasimovich.dev@gmail.com>",
+  "author": "Vlad Gerasimovich <vlad.gerasimovich.micro@outlook.com>",
   "license": "MIT",
-  "bugs": "https://github.com/VGMQT/secret-santa-telegram-bot/issues",
+  "bugs": "https://github.com/vgerasimovich/secret-santa-telegram-bot/issues",
   "scripts": {
     "start": "node index.js"
   },
