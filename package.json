@@ -1,0 +1,35 @@
+{
+  "name": "secret-santa-telegram-bot",
+  "version": "2.0.0",
+  "description": "A bot for managing Secret Santa events",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vgerasimovich/secret-santa-telegram-bot.git"
+  },
+  "keywords": [
+    "secret santa",
+    "secret",
+    "santa",
+    "telegram bot",
+    "telegram",
+    "bot",
+    "mongodb",
+    "mongo",
+    "csv"
+  ],
+  "author": "Vlad Gerasimovich <vlad.gerasimovich.micro@outlook.com>",
+  "license": "MIT",
+  "bugs": "https://github.com/vgerasimovich/secret-santa-telegram-bot/issues",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
