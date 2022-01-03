@@ -52,6 +52,6 @@ You can edit whatever you want! You can add commands/conditions, remove commands
 
 ## License
 
-Copyright © 2019 - 2021
+Copyright © 2019 - 2022 Vlad Gerasimovich <hotepp@pm.me>
 
-Licensed under the MIT license.
+Licensed under the ISC license.

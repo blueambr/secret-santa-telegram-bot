@@ -1,47 +1,74 @@
-# npm
+# Build
+build
+dist
+out
+storybook-static
+
+# npm, Yarn
 node_modules
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
 
-# OS or Editor folders
-*.sublime-grunt.cache
-*.sublime-project
-*.sublime-workspace
-.idea
-.vscode
+# IDE, OS, Text editor
+Thumbs.db
 ._*
-.cache
 .DS_Store
+.cache
+.idea
 .project
 .settings
 .tmproj
-Thumbs.db
+.vscode
+*.sublime-project
+*.sublime-workspace
 
-# Server settings
+# Server
 .htaccess
+.next
+.nuxt
 
 # Misc
+bower_components
+coverage
+jspm_packages
+lib-cov
+logs
+pids
+private.*
+sw.*
 .CVS
-.git
-.hg
-.svn
-.env.local
+.env
 .env.development.local
-.env.test.local
+.env.local
 .env.production.local
+.env.test.local
+.eslintcache
+.git
+.grunt
+.hg
+.lock-wscript
+.node_repl_history
+.nyc_output
 .pnp
 .pnp.js
-bower_components
-
-# Numerous always-ignore extensions & files
+.serverless
+.svn
 *.bak
 *.diff
 *.err
 *.exe
 *.log
 *.orig
+*.pid
+*.pid.lock
 *.rej
 *.sass-cache
+*.seed
 *.swo
 *.swp
+*.tgz
 *.vi
 *~
