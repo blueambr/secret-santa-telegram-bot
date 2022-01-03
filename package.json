@@ -1,10 +1,10 @@
 {
   "name": "secret-santa-telegram-bot",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A bot for managing Secret Santa events",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vgerasimovich/secret-santa-telegram-bot.git"
+    "url": "https://github.com/hotepp/secret-santa-telegram-bot.git"
   },
   "keywords": [
     "secret santa",
@@ -17,7 +17,7 @@
     "mongo",
     "csv"
   ],
-  "author": "Vlad Gerasimovich <vlad.gerasimovich.micro@outlook.com>",
-  "license": "MIT",
-  "bugs": "https://github.com/vgerasimovich/secret-santa-telegram-bot/issues"
+  "author": "Vlad Gerasimovich <hotepp@pm.me>",
+  "license": "ISC",
+  "bugs": "https://github.com/hotepp/secret-santa-telegram-bot/issues"
 }
