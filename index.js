@@ -99,7 +99,7 @@ const checkMessageForSendingConfirmation = async (msg) => {
 
     telegram.sendMessage(msg.chat.id, confirmedSendingMessage(trimmedMsg), replaceSendingConfirmationAndMenuButtons);
   } else {
-    telegram.sendMessage(clientId, callbackQueryNotAuthorizedMessage);
+    telegram.sendMessage(msg.chat.id, callbackQueryNotAuthorizedMessage);
   }
 };
 

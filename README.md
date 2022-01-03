@@ -1,4 +1,4 @@
-# Secret Santa Telegram Bot 2.0.0
+# Secret Santa Telegram Bot 2.0.1
 
 > "engines": { "node": "12.x" }
 
@@ -55,6 +55,6 @@ You can edit whatever you want! You can add commands/conditions, remove commands
 
 ## License
 
-Copyright © 2019 - 2021
+Copyright © 2019 - 2022 Vlad Gerasimovich <hotepp@pm.me>
 
-Licensed under the MIT license.
+Licensed under the ISC license.
