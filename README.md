@@ -16,6 +16,6 @@ Uses MongoDB as a database. Uses Telegram's Inline Keyboard feature. Creates a U
 
 ## License
 
-Copyright © 2019 - 2022
+Copyright © 2019 - 2022 Vlad Gerasimovich <hotepp@pm.me>
 
 Licensed under the ISC license.
